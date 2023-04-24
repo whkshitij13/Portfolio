@@ -1,6 +1,8 @@
 import About from "@/components/About"
 import Header from "@/components/Header"
 import Hero from "@/components/Hero"
+import Skills from "@/components/Skills"
+import WorkExperience from "@/components/WorkExperience"
 import Head from "next/head"
 
 const index = () => {
@@ -21,8 +23,13 @@ const index = () => {
     <About />
     </section>
     {/* // experience  */}
-
+    <section id="experience" className="snap-center">
+      <WorkExperience />
+    </section>
     {/* // skills  */}
+    <section id="skills" className="snap-center">
+    <Skills />
+    </section>
 
     {/* // project  */}
 
